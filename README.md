@@ -4,10 +4,11 @@ CLI tool for clash json controller
 
 ## Installation
 
-You can install this with deno.
+You can install this with lean4 and lake.
 
 ```sh
-deno install --allow-net --name clashctl main.js
+lake build
+./build/bin/clashctl -h
 ```
 
 ## Usage
